@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+    height: 100vh;
+
+}
+.heading {
+    font-family: Arial, Helvetica;
+    background: #740170;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+.heading img {
+    width: 80px;
+}
+.text {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.Main-text {
+    font-size: 30px;
+}
+.sub-text {
+    font-size: 17px;
+}
+.logout {
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: -10px;
+    color: #0f0095;
+    
+}
+.date {
+    color: #740170;
+    margin-top: -6px ;
+    margin-bottom: 8px ;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+.table1, .table2 {
+    width: 98%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+.thead {
+    text-align: left;
+    font-family: arial, sans-serif;
+    background: #740170 ;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 7px;
+}
+.table2 td {
+    border: 1px solid #dddddd;
+}
+.total {
+    font-weight: bold;
+}
+a {
+    color: #8a4287;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #740170;
+    max-width: 900px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    margin-top:  30px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.disclaimer {
+    margin-top: 5px;
+    /* margin-bottom: 30px; */
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
